@@ -1,0 +1,23 @@
+{
+  "name": "gridsome",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.186"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-gridsome": "^1.6.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^10.1.1",
+    "vue-eslint-parser": "^8.3.0"
+  }
+}
